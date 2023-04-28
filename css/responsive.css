@@ -158,8 +158,10 @@
         max-width: 100%;
     }
     .Restaurants .style-border {
-        font-size: 28px;
-    }
+    font-size: 28px;
+    width: 100%;
+    max-width: 500px;
+}
     .Customers .left {
         font-size: 23px;
         line-height: 31px;
