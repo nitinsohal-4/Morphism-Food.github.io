@@ -181,8 +181,9 @@
         background: var(--btn-color);
     }
       .style-form {
-     margin-left: 80px;
-     margin-right: 50px;
+     margin-left: 0px;
+     margin-right: 0px;
+          margin-top:10px;
 }
       .navbar-light .navbar-nav .nav-link {
     padding: 10px 0px;
