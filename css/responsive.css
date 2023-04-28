@@ -1,0 +1,182 @@
+@media (max-width: 1199.98px) { 
+    .style-form {
+        margin-left: 24px;
+    }
+    .nav-link{
+        padding: 0px;
+        margin: 0px;
+    }
+    .section-banner .style-box h3 {
+        font-size: 37px;
+        line-height: 54px;
+    }
+    .section-banner .style-box p {
+        font-size: 16px;
+    }
+    .section-banner .img img {
+        transform: translate(0px);
+        margin-top: 0px;
+    }
+    .category .style {
+        padding: 21px 0px 0px 0px;
+    }
+    /* set the padding col  */
+        .category .set-p {
+            padding: 4px;
+        }
+        .category .size{
+            padding: 4px !important;
+        }
+/* /* set the padding col  * */
+        .card-box .review i {
+            font-size: 11px;
+        }
+        .category .card-box {
+            padding: 7px;
+        }
+        .Customers .testimonial {
+            margin: 0 9px;
+            padding: 20px;
+        }
+        .Customers .img img {
+            width: 87px;
+            bottom: -1%;
+        }
+        footer .f-1 .Copyright {
+            font-size: 14px;
+        }
+        .Customers .left {
+            margin: 0 200px;
+        }
+
+}
+
+@media (max-width: 991.98px) { 
+    .style-box {
+        margin: 22px 0px;
+        z-index: 7;
+    }
+    .section-banner::after {
+        top: 81%;
+        left: 5%;
+    }
+    .section-banner::before {
+        right: 2%;
+        top: -12%;
+    }
+    .category .style {
+            width: 225px;
+            max-width: 100%;
+            margin: 3px 0px;
+        }
+        .category .card-box {
+            padding: 12px;
+            width: 322px;
+            max-width: 100%;
+        }
+        footer .f-1 .Copyright {
+            font-size: 14px;
+            width: 100%;
+            max-width: 229px;
+        }
+        .footer margin{
+            background-color: red;
+        }
+        .f-2 {
+            padding-bottom: 33px;
+        }
+ }
+
+
+ @media (max-width: 767.98px) { 
+    .section-heading {
+       
+        color: #FFFFFF !important;
+    }
+    .category .card-box {
+        width: 255px;
+        max-width: 100%;
+    }
+    .Customers .left {
+        margin: 0 8px;
+        z-index: 777;
+    }
+    .Customers::before {
+        display: none;
+    }
+    .Customers .testimonial {
+        margin: 0 9px;
+        padding: 14px;
+    }
+    .Customers .edit-box .text p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .Customers .img img {
+        width: 81px;
+        bottom: -3%;
+    }
+  }
+
+
+  @media (max-width: 575.98px) { 
+    .section-banner::before {
+        display: none;
+    }    
+    .section-banner .style-box h3 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    .section-banner .style-box p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .btn-style {
+        max-width: 158px;
+        height: 46px;
+        font-size: 18px;
+    }
+    .section-banner::after {
+        display: none;
+    }
+    .category {
+        padding: 10px 0px 50px 0px;
+    }
+    .section-heading {
+        font-size: 29px;
+    }
+    .category .style {
+        width: 600px;
+        max-width: 100%;
+    }
+    .category .style {
+        padding: 28px 0px 0px 0px;
+    }
+    .category .card-box {
+        width: 600px;
+        max-width: 100%;
+    }
+    .Restaurants .style-border {
+        font-size: 28px;
+    }
+    .Customers .left {
+        font-size: 23px;
+        line-height: 31px;
+    }
+    .Customers .edit-box .text p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .Customers .edit-box .text h4 {
+        font-size: 18px;
+    }
+    .Customers .img img {
+        width: 69px;
+        bottom: -4%;
+    }
+    .navbar-light .navbar-toggler {
+        background: var(--btn-color);
+    }
+  }
+
