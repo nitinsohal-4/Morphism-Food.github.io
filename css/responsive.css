@@ -184,5 +184,8 @@
      margin-left: 80px;
      margin-right: 50px;
 }
+      .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0px;
+}
   }
 
