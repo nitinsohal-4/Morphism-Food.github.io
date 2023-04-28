@@ -180,5 +180,9 @@
     .navbar-light .navbar-toggler {
         background: var(--btn-color);
     }
+      .style-form {
+     margin-left: 80px;
+     margin-right: 50px;
+}
   }
 
