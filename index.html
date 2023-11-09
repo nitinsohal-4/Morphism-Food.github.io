@@ -7,221 +7,699 @@
     <title>Document</title>
     <!-- stylesheet  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- cdn icons  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- slider cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<!-- ========== Start top-bar ========== -->
-<div class="top-bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8 d-flex align-items-center">
-                <div class="left-side">
-                    <li>
-                        <i class="fa-solid fa-phone"></i>
-                        <span>call us +123-456-789</span>
-                    </li>
-                    <li>
-                        <img src="images/mail.png" alt="">
-                        <span>itx4776@solutions.com</span>
-                    </li>
-                    <li>
-                        <img src="images/location.png" alt="">
-                        <span>mohali sector 75 8b </span>
-                    </li>
 
-                </div>
-
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="icon">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-instagram"></i>
-
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-</div>
-<!-- ========== End top-bar ========== -->
-<!-- ========== Start header ========== -->
-<header>
-    <nav class="navbar navbar-expand-lg">
+<body>
+    <!-- ========== Start top-bar ========== -->
+    <div class="top-bar">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> OUR WORK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                </ul>
-                <div class="ms-auto ">
-                    <button> Free Quote</button>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-side">
+                        <li>
+                            <i class="far fa-credit-card"></i>
+                            <span>
+                                Payment Options
+                            </span>
+                        </li>
+                        <li>
+                            <i class="far fa-check-square"></i>
+                            <span>
+                                Terms Conditions
+                            </span>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <div class="left-side">
+                        <li>
+                            <i aria-hidden="true" class="fas fa-map-marker-alt"></i>
+                            <span>
+                                Malibu 453 blv
+                            </span>
+                        </li>
+                        <li>
+                            <i aria-hidden="true" class="far fa-envelope"></i>
+                            <span>
+                                info@charity.com
+                            </span>
+                        </li>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-</header>
-<!-- ========== End header ========== -->
-<!-- ========== Start banner ========== -->
-<section class="banner-section">
-    <div class="container">
-        <div class="text" data-aos="fade-up" data-aos-duration="900">
-            <h2>Get your Business on top with
-                ITX Web Solutions</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy tex</p>
-            <button class="get">Get Started</button>
-            <button class="Request">Request A Quote</button>
-        </div>
+
     </div>
-</section>
-<!-- ========== End banner ========== -->
-<!-- ========== Start about us  ========== -->
-<section class="about-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="img-box" data-aos="fade-right" data-aos-duration="900">
-                    <img src="images/about us.jpg" alt="" class="img-set">
+    <!-- ========== End top-bar ========== -->
+
+
+
+
+    <!-- ========== Start header ========== -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">cause stand</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conflicts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Justice
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog
+                            </a>
+                        </li>
+                        <button> donate no</button>
+
+
+                    </ul>
+
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="right-text" data-aos="fade-left" data-aos-duration="900">
-                    <p class="About">About Our Conpany ~</p>
-                    <h3>Choose The Best <span class="Itx"> Itx Web</span> Solutions Service </h3>
-                    <p class="Lorem"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum has been
-                        the industry's standard dummy text ever since</p>
+        </nav>
+    </header>
+
+    <!-- ========== End header ========== -->
 
 
-                    <div class="gap">
-                        <div class="main-box">
-                            <div class="icon">
-                                <img src="images/tech.png" alt="">
+
+    <!-- ========== Start slide  ========== -->
+    <section class="slide">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block  z-3" data-aos="fade-up" data-aos-duration="2500">
+                        <h5>we love all people</h5>
+                        <p>check our latest causes and missions</p>
+                        <button> donate no</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block z-3">
+                        <h5>we love all people</h5>
+                        <p>check our latest causes and missions</p>
+                        <button> donate no</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block  z-3">
+                        <h5>we love all people</h5>
+                        <p>check our latest causes and missions</p>
+                        <button> donate no</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End slide  ========== -->
+
+
+    <!-- ========== Start 3-imgs ========== -->
+    <section class="imgs-3">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-4  p-0">
+                    <div class="bg-img">
+                        <h2>THANK TO THE <span class="RESULTS"> RESULTS</span> ACHIEVED WITH YOU !</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="set-padding">
+                                    <h6>
+                                        6893
+                                    </h6>
+                                    <span class="help">HELPED PEOPLE
+                                    </span>
+                                </div>
                             </div>
-                            <div class="text">
-                                <h4 class="Money">Money back<br>
-                                    Gurentee</h4>
+                            <div class="col-md-6">
+                                <div class="set-padding-2">
+                                    <h6>
+                                        1200
+                                    </h6>
+                                    <span class="help">VOLOUNTEERS
+
+                                    </span>
+                                </div>
+
                             </div>
-                            <div class="icon">
-                                <img src="images/t.png" alt="">
-                            </div>
-                            <div class="text">
-                                <h4>Technical<br>
-                                    Support</h4>
-                            </div>
+
                         </div>
                     </div>
 
-                    <button class="CONTACT"> CONTACT</button>
+                </div>
+                <div class="col-md-4  p-0 ">
+                    <div class="bg-img-2">
+                        <h4>NEXT GOALS</h4>
+                        <div class="align-text">
+                            <span>New Hospital</span>
+                            <span>25 May</span>
+                        </div>
+                        <div class="align-text">
+                            <span>New Teachers</span>
+                            <span>03 June</span>
+                        </div>
+                        <div class="align-text">
+                            <span>Water Wells</span>
+                            <span>14 April</span>
+                        </div>
+                        <div class="align-text">
+                            <span>New Vaccines</span>
+                            <span>SOON</span>
+                        </div>
 
+                    </div>
+
+                </div>
+                <div class="col-md-4  p-0">
+                    <div class="bg-img-3">
+                        <p>HELP US
+                        </p>
+                        <h4>NEXT GOALS
+                        </h4>
+                        <div class="btn-align">
+                            <button>check out</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========== End 3-imgs ========== -->
+
+    <!-- ========== Start about us  ========== -->
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="left-img border">
+                        <img src="images/about.jpg" alt="" class="img-height">
+                        <img src="images/small.jpg" alt="" class="small">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="text-right">
+                        <p class="H-o">HOSPITALITY</p>
+                        <h4>THE HOUSE OF HELP</h4>
+                        <p class="Lorem-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nunc eros.
+                            Suspendisse
+                            scelerisque felis ante, et mattis felis scelerisque sodales. Aenean id imperdiet lectus.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit nulla.
+                        </p>
+                        <p class="Lorem-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nunc eros.
+                            Suspendisse
+                            scelerisque felis ante, et mattis felis scelerisque sodales. Aenean id imperdiet lectus.
+                            Lorem ipsum dolor sit amet, </p>
+                        <button class="btn"> DONATE NO</button>
+                    </div>
                 </div>
             </div>
         </div>
-</section>
-
-<!-- ========== End about us  ========== -->
-
-
-<!-- ========== Start servies ========== -->
-
-<section class="servies">
-    <div class="container">
-        <p class="Our">~ Our Awesome Services</p>
-        <h5 class="all">all services</h5>
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6 padding">
+    </section>
+    <!-- ========== End about us  ========== -->
 
 
-                <div class="card-style" data-aos="zoom-in-up" data-aos-duration="900">
-                    <div class="icon-box">
-                        <img src="images/ui u x.png" alt="" class="img-tr">
-                    </div>
-                    <div class="text">
-                        <h5> UI/UX Design</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, asperiores?</p>
+    <!-- ========== Start OUR-ANGELS ========== -->
+    <section class="our-angels">
+        <div class="container">
+            <p>our-angels</p>
+            <h3>OUR MAIN VOLUNTEERS
+            </h3>
+
+
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-1.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 padding">
-
-
-                <div class="card-style" data-aos="zoom-in-up" data-aos-duration="900">
-                    <div class="icon-box">
-                        <img src="images/ppc (2).png" alt="" class="img-tr">
-                    </div>
-                    <div class="text">
-                        <h5> Ppc</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, asperiores?</p>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-2.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 padding">
 
-
-                <div class="card-style" data-aos="zoom-in-up" data-aos-duration="900">
-
-                    <div class="icon-box">
-                        <img src="images/web.png" alt="" class="img-tr">
-                    </div>
-                    <div class="text">
-                        <h5>Web Design</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, asperiores?</p>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-3.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 padding">
-                <div class="card-style" data-aos="zoom-in-up" data-aos-duration="900">
 
-                    <div class="icon-box">
-                        <img src="images/seo.png" alt="" class="img-tr">
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-1.jpg" alt="">
                     </div>
-                    <div class="text">
-                        <h5> Seo</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, asperiores?</p>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/slide-4.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========== End OUR-ANGELS ========== -->
+
+    <!-- ========== Start PRODUCTS ========== -->
+    <section class="Products">
+        <div class="container">
+            <p>AID CONTRIBUTION</p>
+            <h3>BUY YOUR PRODUCTS</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="images/p-1.jpg" alt="">
+                        <div class="text-one">
+                            <span>$ 13.40</span>
+                        </div>
+                        <div class="text-two">
+                            <h4>The Wolves</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="images/p-2.jpg" alt="">
+                        <div class="text-one">
+                            <span>$ 13.40</span>
+                        </div>
+                        <div class="text-two">
+                            <h4>The Wolves</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="images/p-3.jpg" alt="">
+                        <div class="text-one">
+                            <span>$ 13.40</span>
+                        </div>
+                        <div class="text-two">
+                            <h4>The Wolves</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="images/p-4.jpg" alt="">
+                        <div class="text-one">
+                            <span>$ 13.40</span>
+                        </div>
+                        <div class="text-two">
+                            <h4>The Wolves</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="img">
+                        <img src="images/p-5.jpg" alt="">
+                        <div class="text-one">
+                            <span>$ 13.40</span>
+                        </div>
+                        <div class="text-two">
+                            <h4>The Wolves</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="shop-inf">
+                        <div class="overlay-shop">
+                            <h2>SHOP INFO</h2>
+                            <p> Terms and Conditions</p>
+                            <p> Services and <span style="border-bottom: 2px solid #fff;"> Returns<span> </p>
+                            <p> Solidarity Gifts</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- ========== End servies ========== -->
+    </section>
+    <!-- ========== End PRODUCTS ========== -->
 
-<body>
 
+
+    <!-- ========== Start counter ========== -->
+    <section class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="text-box">
+                        <div class="heading">
+                            <h4>12</h4>
+                        </div>
+                        <div class="t-two">
+                            <h5> Doctors</h5>
+                            <p> Vivamus vel nibh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-box">
+                        <div class="heading">
+                            <h4>45</h4>
+                        </div>
+                        <div class="t-two">
+                            <h5> Volunteers</h5>
+                            <p> Vivamus vel nibh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-box">
+                        <div class="heading">
+                            <h4>26</h4>
+                        </div>
+                        <div class="t-two">
+                            <h5> Adoptions
+                            </h5>
+                            <p> Nunc sollicudin dolor
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-box">
+                        <div class="heading">
+                            <h4>78</h4>
+                        </div>
+                        <div class="t-two">
+                            <h5> Causes</h5>
+                            <p>Etiam fringillaquam </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End counter ========== -->
+
+    <!-- ========== Start BLOG ========== -->
+    <section class="blog">
+        <div class="container">
+            <p class="stay">STAY TUNED </p>
+            <h3 class="latest"> LATEST FROM BLOG
+            </h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-one">
+                        <div class="img">
+                            <img src="images/post-05.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="mas">MASONRY</p>
+                            <h3>New Website</h3>
+                            <p class="pp">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna
+                                et. Quisque
+                                euismod orci.</p>
+                        </div>
+                        <div class="date">
+                            <h4>14</h4>
+                            <span class="mar">mar</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card-one">
+                        <div class="img">
+                            <img src="images/post-07.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="mas">MASONRY</p>
+                            <h3>New Website</h3>
+                            <p class="pp">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna
+                                et. Quisque
+                                euismod orci.</p>
+                        </div>
+                        <div class="date">
+                            <h4>14</h4>
+                            <span class="mar">mar</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card-one">
+                        <div class="img">
+                            <img src="images/post-08.jpg" alt="" class="img-height">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ========== End BLOG ========== -->
+
+
+    <!-- ========== Start footer ========== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="fo-one">
+                        <H4 class="fo-logo"> cause stand</H4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aut esse repudiandae sequi?
+                        </p>
+                        <div class="f-icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-vimeo-v"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 add-padding ">
+                    <div class="fo-one">
+                        <h3>My Account</h3>
+                        <ul>
+                            <li><a href="">Track Orders</a></li>
+
+                            <li><a href=""> Shipping</a></li>
+                            <li><a href="">Wishlist</a></li>
+
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">Order History</a></li>
+                            <li><a href="">Returns</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-3 add-padding-two ">
+                    <div class="fo-one">
+                        <h3>Infomation</h3>
+                        <ul>
+                            <li><a href="">Products
+                                </a></li>
+                            <li><a href="">Events</a></li>
+                            <li><a href="">Conflicts</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us </a></li>
+                            <li><a href="">Latest News</a></li>
+                            <!-- <li><a href=""> Media</a></li> -->
+                            <!-- <li><a href=""> Justice</a></li> -->
+                            <!-- <li><a href=""> Blog</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="fo-one">
+                        <h3>Talk To Us</h3>
+                        <p class="Got">Got Questions? Call us</p>
+                        <h4 class="mobile-number">
+                            + 00 123 456 789
+                        </h4>
+                        <ul>
+                            <li class="align">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span>
+                                    info@gmail.com</span>
+                            </li>
+                            <li class="align margin-top">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>79 Sleepy Hollow St.
+                                    Jamaica, New York 1432
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="copy-right">
+                <p>© 2023 All Rights Reserved | cause stand.</p>
+                <img src="images/pay.png" alt="">
+            </div>
+
+
+        </div>
+    </footer>
+    
+    <!-- ========== End footer ========== -->
     <!-- js file  -->
+    <!-- slider cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 30,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1500])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+    </script>
 </body>
+
+</html>
