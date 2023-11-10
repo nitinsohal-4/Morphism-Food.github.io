@@ -117,11 +117,12 @@
      position: relative;
  }
 
- .slide .carousel-caption {
-     bottom: 10.25rem;
-     left: 16%;
-     text-align: left;
- }
+.slide .carousel-caption {
+    bottom: 10.25rem;
+    left: 16%;
+    text-align: left;
+    z-index: 777 !important;
+}
 
  .slide .carousel-caption h5 {
      font-size: 70px;
